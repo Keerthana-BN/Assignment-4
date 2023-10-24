@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - cars </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="https://marketplace-images-production.s3-us-west-2.amazonaws.com/vault/items/preview-54b14906-42f4-41da-a856-1fa70a140b28-1180x660-eEU0S.jpg" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <p>To give you a luxury car experience </p>
+            </body>
+                <div class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-col-1">
+                                <h3>Download Our App</h3>
+                                <p>Download App for Android and ios mobile phone.</p>
+                                <div class="app-logo">
+                                    <img src="https://m-cdn.phonearena.com/images/articles/293930-940/carscom.jpg">
+                                    <img src="https://m-cdn.phonearena.com/images/articles/293930-940/carscom.jpg">
+                                </div>
+                            </div>
+                            <div class="footer-col-2">
+                                <img src="https://i.pinimg.com/originals/76/7c/a7/767ca7ddbbc749b99c8b01ab31252f5c.jpg">
+                                <p></p>
+                            </div>
+                            <div class="footer-col-3">
+                                <h3>Useful Links</h3>
+                                <ul>
+                                    <li>Coupons</li>
+                                    <li>Blog Post</li>
+                                    <li>Return Policy</li>
+                                    <li>Join Affiliate</li>
+                                </ul>
+                            </div>
+                            <div class="footer-col-4">
+                                <h3>Follow Us</h3>
+                                <ul>
+                                    <li>Facebook</li>
+                                    <li>Instagram</li>
+                                    <li>Twitter</li>
+                                    <li>YouTube</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="copyright">Copyright 2023</p>
+                    </div>
+                </div>
+                <!--js for toggle menu-->
+                <script>
+                    var MenuItems=document.getElementById("MenuItems");
+                
+                    MenuItems.style.maxHeight = "0px";
+                
+                    function menutoggle(){
+                        if(MenuItems.style.maxHeight=="0px")
+                        {
+                            MenuItems.style.maxHeight = "200px";
+                        }
+                        else
+                        {
+                            MenuItems.style.maxHeight = "0px";
+                        }
+                    }
+                </script>
+                <!-----js for toggle-->
+                <script>
+                    var LoginForm=document.getElementById("LoginForm");
+                    var RegForm=document.getElementById("RegForm");
+                    var Indicator=document.getElementById("Indicator");
+                
+                        function register(){
+                            RegForm.style.transform="translateX(0px)";
+                            LoginForm.style.transform="translateX(0px)";
+                            Indicator.style.transform="translateX(100px)";
+                        }
+                        function login(){
+                            RegForm.style.transform="translateX(300px)";
+                            LoginForm.style.transform="translateX(300px)";
+                            Indicator.style.transform="translateX(0px)";
+                        }
+                
+                </script>
+                
+                
+                </body>
+                </html>

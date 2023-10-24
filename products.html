@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - cars </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="https://marketplace-images-production.s3-us-west-2.amazonaws.com/vault/items/preview-54b14906-42f4-41da-a856-1fa70a140b28-1180x660-eEU0S.jpg" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="https://static.vecteezy.com/system/resources/previews/000/424/422/original/vector-cart-icon.jpg" width="30px" height="30px"></a>
+                <img src="https://cdn2.iconfinder.com/data/icons/car-14/100/Car_Menu-512.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Shorting</option>
+                <option>Short by price</option>
+                <option>Short by popularity</option>
+                <option>Short by rating</option>
+                <option>Short by sale</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+               <a href="productdetail.html"><img src="https://th.bing.com/th/id/OIP.bPW_8CZhHmj0NCgzZKGNLQHaFj?pid=ImgDet&rs=1"></a>
+                <a href="productdetail.html"><h4>porche</h4></a>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs.19999999</p>
+            </div>
+            <div class="col-4">
+               <img src="https://th.bing.com/th/id/R.b912e2c4f410e6cfa145d1e68d459fe7?rik=oTbzvUoeLXvaOA&riu=http%3a%2f%2ffarm5.static.flickr.com%2f4044%2f4654072024_690fea287e_b.jpg&ehk=329RWWcYTN0m%2bSNETzQdw%2bkUVq%2bqPfhSiWPTtBCa7SI%3d&risl=&pid=ImgRaw&r=0">
+               <h4>BMW</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs.10000000</p>
+            </div>
+            <div class="col-4">
+               <img src="https://th.bing.com/th/id/OIP.aXclQVA_HTBlQmH41SrpNQHaEo?pid=ImgDet&rs=1">
+               <h4>Audi</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>Rs.2500000</p>
+            </div>
+            <div class="col-4">
+               <img src="https://th.bing.com/th/id/OIP.hv4H75ny9DrTIWQ8loReqAHaEK?pid=ImgDet&rs=1">
+               <h4>Porche</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs.19999999</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+               <img src="https://i.pinimg.com/originals/05/b9/72/05b972a3734954f848028bf210466fba.jpg">
+               <h4>Ferrari</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs.5000000</p>
+            </div>
+            <div class="col-4">
+               <img src="https://th.bing.com/th/id/R.b912e2c4f410e6cfa145d1e68d459fe7?rik=oTbzvUoeLXvaOA&riu=http%3a%2f%2ffarm5.static.flickr.com%2f4044%2f4654072024_690fea287e_b.jpg&ehk=329RWWcYTN0m%2bSNETzQdw%2bkUVq%2bqPfhSiWPTtBCa7SI%3d&risl=&pid=ImgRaw&r=0">
+               <h4>Jaguar</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs.9000000</p>
+            </div>
+            <div class="col-4">
+               <img src="https://th.bing.com/th/id/OIP.8UhTbrSGl1LuYes0NSnJeAHaE8?pid=ImgDet&rs=1">
+               <h4>BMW</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>Rs.2000000 </p>
+            </div>
+            <div class="col-4">
+               <img src="https://cdn.dealeraccelerate.com/ramc/1/679/16585/1920x1440/1969-chevrolet-camaro">
+               <h4>Audi</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs.7500000</p>
+            </div>
+            <div class="col-4">
+               <img src="https://4.bp.blogspot.com/-UAld1gv6_ZY/UqkGrg_6RlI/AAAAAAAADho/q6ngZbkIsCA/s1600/1969+chevy+camaro.jpg">
+               <h4>Ferrari</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs.15000000</p>
+            </div>
+            <div class="col-4">
+               <img src="https://wallpapercave.com/wp/wp2797475.jpg">
+               <h4>Lamborgini</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs.10000000</p>
+            </div>
+            <div class="col-4">
+               <img src="https://wallpapercave.com/wp/1l1GUIX.jpg">
+               <h4>Jaguar</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>Rs.8000000</p>
+            </div>
+            <div class="col-4">
+               <img src="https://4.bp.blogspot.com/-UAld1gv6_ZY/UqkGrg_6RlI/AAAAAAAADho/q6ngZbkIsCA/s1600/1969+chevy+camaro.jpg">
+               <h4>Benz</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs.4500000</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+<!---footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="https://m-cdn.phonearena.com/images/articles/293930-940/carscom.jpg">
+                    <img src="https://m-cdn.phonearena.com/images/articles/293930-940/carscom.jpg">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="https://i.pinimg.com/originals/76/7c/a7/767ca7ddbbc749b99c8b01ab31252f5c.jpg">
+                <p>To provide luxury cars</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023</p>
+    </div>
+</div>
+<!--js for toggle menu-->
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>

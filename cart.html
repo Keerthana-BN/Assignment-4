@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - cars</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="https://marketplace-images-production.s3-us-west-2.amazonaws.com/vault/items/preview-54b14906-42f4-41da-a856-1fa70a140b28-1180x660-eEU0S.jpg" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="https://static.vecteezy.com/system/resources/previews/000/424/422/original/vector-cart-icon.jpg" width="30px" height="30px"></a>
+                <img src="https://cdn2.iconfinder.com/data/icons/car-14/100/Car_Menu-512.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+<!--cart item details---->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://th.bing.com/th/id/R.b902096f54f203b8e5b617b6e3c41e16?rik=HBp%2b2iyOkTG%2b2w&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fBest-Cars-Full-HD-Photos-1920x1080.jpg&ehk=%2fjLuRL0avCLGt9lgNqfWbojNBcWD3KIb2S1OLUBUNa4%3d&risl=&pid=ImgRaw&r=0">
+                        <div>
+                            <p></p>
+                            <small>Price: Rs.4000000</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td class="side">Rs.4000000</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://th.bing.com/th/id/OIP.aXclQVA_HTBlQmH41SrpNQHaEo?pid=ImgDet&rs=1">
+                        <div>
+                            <p>Benz</p>
+                            <small>Price: Rs.8000000</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td class="side">Rs.8000000</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://th.bing.com/th/id/OIP.hv4H75ny9DrTIWQ8loReqAHaEK?pid=ImgDet&rs=1">
+                        <div>
+                            <p>BMW</p>
+                            <small>Price: Rs.4000000</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="3"></td>
+                <td class="side">Rs.4000000</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>Rs.16000000</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>Rs.89900</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rs.69000000</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+<!---footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="https://m-cdn.phonearena.com/images/articles/293930-940/carscom.jpg">
+                    <img src="https://m-cdn.phonearena.com/images/articles/293930-940/carscom.jpg">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="https://i.pinimg.com/originals/76/7c/a7/767ca7ddbbc749b99c8b01ab31252f5c.jpg">
+                <p>To provide luxury cars</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023</p>
+    </div>
+</div>
+<!--js for toggle menu-->
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
